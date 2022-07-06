@@ -1,5 +1,5 @@
 ## Analysis code for all iterations of the pilot screens
-<p>Development of an efficient chemotaxis screening pipeline has been an iterative process. These folders contain the code used to analyze images and data for each iteration of the screen. Following is a brief description of each screen, the screen's goals and a brief description of the folder contents.
+<p>Development of an efficient chemotaxis screening pipeline has been an iterative process. These folders contain the code used to analyze images and data for each iteration of the screen. Following is a brief description of each screen, the screen's goals and a brief description of the folder contents.</p>
 
 ### Pilot_screen
 <p> This is the image and data analysis code from the first iteration of our screening platform. It includes 3 Jupyter notebooks:</p>
@@ -9,7 +9,7 @@
 
 
 ### 202011_screen
-<p> This is the first screen performed after the after the COVID 2020 shutdown. In this iteration we introduced a number of improvements to the pilot screening platform. These include:
+<p> This is the first screen performed after the after the COVID 2020 shutdown. In this iteration we introduced a number of improvements to the pilot screening platform. These include:</p>
 	1. Using a Multiflow liquid handler to dispense worms onto assay plates 
 	2.Using flatbed scanners to capture images instead of the scanning microscope.
 	3. Using Gelrite instead of agar in the chemotaxis assay plates.
