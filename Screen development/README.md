@@ -3,17 +3,17 @@
 
 ### Pilot_screen
 <p> This is the image and data analysis code from the first iteration of our screening platform. It includes 3 Jupyter notebooks:</p>
-1.  **Neuroplant image analysis** The code reads in .tiff files and uses background subtraction to segment the image and identify the worms. To perform the background subtraction requires two images of the assay plate: before the addition of worms to the plate and after chemotaxis. The code also assumes that the worms will appear dark on a light colored background. Example images from this pilot screen can be found here: **Insert link to folder**
+1. **Neuroplant image analysis** The code reads in .tiff files and uses background subtraction to segment the image and identify the worms. To perform the background subtraction requires two images of the assay plate: before the addition of worms to the plate and after chemotaxis. The code also assumes that the worms will appear dark on a light colored background. Example images from this pilot screen can be found here: **Insert link to folder**
 2. **Plot chemotaxis results** Code to generate scatter plots comparing between strains chemotaxis index results from the pilot screens. It will also generate confidence intervals of the same dataset comparing chemotaxis indices between strains
 3. **Neuroplant manual analysis comparisons** This contains code to analyze the performance of the first iteration of the automated worm counting algorithm.
 
 
 ### 202011_screen
 <p> This is the first screen performed after the after the COVID 2020 shutdown. In this iteration we introduced a number of improvements to the pilot screening platform. These include:</p>
-	1. Using a Multiflow liquid handler to dispense worms onto assay plates 
-	2.Using flatbed scanners to capture images instead of the scanning microscope.
-	3. Using Gelrite instead of agar in the chemotaxis assay plates.
-	4. Increasing the number of compounds tested from 8 to 40.
+1. Using a Multiflow liquid handler to dispense worms onto assay plates 
+2. Using flatbed scanners to capture images instead of the scanning microscope.
+3. Using Gelrite instead of agar in the chemotaxis assay plates.
+4. Increasing the number of compounds tested from 8 to 40.
 
 
 Our goal for this iteration of the screen was to increase the throughput of the entire pipeline. This was achieved by implementing some of the tools mentioned above. We also discontinued the use of background selection to segment the images, which allowed us to discontinue capture before and after images of the assay plates, ultimately reducing the amount of data to be stored and captured. 
