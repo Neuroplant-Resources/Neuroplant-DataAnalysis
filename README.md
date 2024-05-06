@@ -1,4 +1,5 @@
 # Neuroplant-DataAnalysis
+[![DOI](https://zenodo.org/badge/508834618.svg)](https://zenodo.org/doi/10.5281/zenodo.11122496)
 This repository contains all of the code written to analyze the data and generate the figures for the Neuroplant (NP) methods manuscript. The code is broken up into two categories:
 1. Data cleaning and intermediate analysis
 2. Plotting data for figures
